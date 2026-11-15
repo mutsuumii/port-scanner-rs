@@ -1,0 +1,10 @@
+[package]
+name = "port-scanner-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Fast async TCP port scanner"
+license = "MIT"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+clap = { version = "4", features = ["derive"] }
